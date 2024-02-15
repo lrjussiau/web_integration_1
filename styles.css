@@ -1,0 +1,121 @@
+body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(30, 10%, 34%);
+    background-color: hsl(30, 54%, 90%);
+}
+
+p {
+    font-size: 16px;
+}
+
+b {
+    font-weight: 600;
+    color: hsl(30, 10%, 34%);
+}
+
+img {
+   max-width: 100%;
+   border-radius: 20px;
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 40px;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: hsl(14, 45%, 36%);
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    font-size: 22px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+hr {
+    opacity: 30%;
+    margin-top: 40px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: none;
+}
+
+tr {
+    border-bottom: 1px solid hsla(15, 4%, 18%, 0.225);
+}
+
+tr:last-child {
+    border-bottom: none;
+  }
+
+td {
+    text-indent: 15px;
+    padding: 15px;
+}
+
+.homepage {
+    display: block;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    max-width: 750px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: 40px 0px;
+}
+
+.preparation_li {
+    color: hsl(332, 51%, 32%);
+    margin: 15px 0px;
+    text-indent: 30px;
+}
+
+.ingredients_li {
+    color: hsl(14, 45%, 36%);
+    margin: 15px 0px;
+    text-indent: 30px;
+}
+
+.instruction_li {
+    color: hsl(14, 45%, 36%);
+    list-style: decimal;
+    font-weight: 800;
+    margin: 15px 0px;
+    padding-left: 30px;
+}
+
+.p_li {
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+
+.value_table {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
